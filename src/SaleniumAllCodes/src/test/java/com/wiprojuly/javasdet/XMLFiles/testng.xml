@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Functional" verbose="1" parallel="classes" thread-count="3">
+<test name="Functional testcases">
+<groups>
+<run>
+<exclude name="Regression"/>
+</run>
+
+</groups>
+<classes>
+   <class name="com.wiprojuly.testng.TestNgMultiple"/>
+   <class name="com.wiprojuly.testng.TestNGGroups"/>
+
+</classes>
+
+</test>
+
+</suite>
